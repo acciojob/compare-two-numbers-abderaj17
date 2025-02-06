@@ -4,9 +4,9 @@ function compareInput(){
 	const input2 =  prompt("Enter second input");
 
 	if(input1 == input2){  
-		alert("true");
+		alert(true);
 	}
-		alert("false");
+		alert(false);
 	
 }
 compareInput();
