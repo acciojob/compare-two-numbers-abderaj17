@@ -1,12 +1,7 @@
-//your JS code here. If required.
-function compareInput(){
-	const input1 = prompt("Enter first input")
-	const input2 =  prompt("Enter second input");
 
-	if(input1 == input2){  
-		alert(true);
-	}
-		alert(false);
-	
-}
-compareInput();
+	let input1 = prompt("Enter first input")
+	let input2 =  prompt("Enter second input");
+	input1 = Number(input1)
+	input2 = Number(input2)
+
+	alert((input1 == input2))
